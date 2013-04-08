@@ -1,0 +1,241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 2123,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/A&AComputers/Desktop/forms/js/week8.js",
+		"/C/Users/A&AComputers/Desktop/forms/week8.html",
+		"/C/xampp/htdocs/wiki/wiki.sublime-project",
+		"/C/Users/A&AComputers/Desktop/forms/css/jquery-ui.css",
+		"/C/xampp/htdocs/wiki/wiki.html",
+		"/C/xampp/htdocs/wiki/scripts/main.js",
+		"/C/xampp/htdocs/wiki/css/main.css",
+		"/C/xampp/htdocs/cable1/index.html",
+		"/C/xampp/htdocs/cable1/css/style.css",
+		"/C/xampp/htdocs/cable1/js/script.js",
+		"/C/xampp/htdocs/cable1/php/dbconnect.php",
+		"/C/xampp/htdocs/cable1/dbconnect.php",
+		"/C/xampp/htdocs/wiki/js/login",
+		"/C/Users/A&AComputers/Desktop/forms/css/site.css",
+		"/C/Users/A&AComputers/Desktop/forms/form.html",
+		"/C/Users/A&AComputers/Desktop/forms/validation.html",
+		"/C/Users/A&AComputers/Desktop/wiki/wiki.html",
+		"/C/Users/A&AComputers/Desktop/wiki/js/main.js",
+		"/C/Users/A&AComputers/Desktop/wiki/css/main.css",
+		"/C/Users/A&AComputers/Desktop/Corbelli Billiards/main.lua",
+		"/C/Users/A&AComputers/Desktop/1023_canvas/script.js",
+		"/F/Q9/AdvAuth/1010_canvas/script.js",
+		"/C/Users/A&AComputers/Desktop/1023_canvas/canvasexperiments.html",
+		"/F/Q9/AdvAuth/1016_canvas/script.js",
+		"/F/Q9/AdvAuth/1010_canvas/canvasexperiments.html",
+		"/C/Users/A&AComputers/Desktop/Billiards/Billiards/main.lua",
+		"/C/Users/A&AComputers/Desktop/blacklist",
+		"/C/Users/A&AComputers/AppData/Local/Google/Chrome/User Data/Default/Local Storage/chrome-extension_oefddkjnflmjbclpnnoegglmmdfkidip_0.localstorage",
+		"/C/Users/A&AComputers/AppData/Local/Google/Chrome/User Data/Default/Local Storage/chrome-extension_oefddkjnflmjbclpnnoegglmmdfkidip_0.localstorage-journal",
+		"/C/Users/A&AComputers/Desktop/1010_canvas/canvasexperiments.html",
+		"/C/Users/A&AComputers/Desktop/1010_canvas/script.js",
+		"/F/AdvAuth/1003_canvas/canvasexperiments.html",
+		"/F/AdvAuth/1003_canvas/script.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"background-image:",
+			"ui-icon",
+			"INSERT INTO `mainaccounts`.`clients` (`acct`, `rep`, `client_name`, `zone`, `status`, `username`, `category`, `system`, `division`, `contact_firstname`, `contact_lastname`, `address`, `phone`, `state`, `zip`, `city`) VALUES ('2340439627201', 'Mark', 'KXII', 'Z', 'Installed', 'randywells', 'Communications', '455', 'Central', 'Randy', 'Wells', '4201 Texoma Parkway', '9038148648', 'TX', '75090', 'Sherman');\n\nINSERT INTO `mainaccounts`.`clients` (`acct`, `rep`, `client_name`, `zone`, `status`, `username`, `category`, `system`, `division`, `contact_firstname`, `contact_lastname`, `address`, `phone`, `state`, `zip`, `city`) VALUES ('2343210746001', 'Mark', 'KXII', 'Z', 'Installed', 'plainviewisd', 'K-12', '408', 'Central', 'Denis', 'Cowie', '1140 S. Plainview Rd', '5804903147', 'OK', '73401', 'Sherman');",
+			"	<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />",
+			"*/\n",
+			"textFields",
+			"after",
+			"5px",
+			"	\n",
+			"42",
+			"shape",
+			"$",
+			" ",
+			"  ",
+			" ",
+			"2.195",
+			"207.89625",
+			"217.89625",
+			"207.89625",
+			"217.89625",
+			"207.21142",
+			"12.195",
+			"217.21142",
+			");"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"",
+			"$",
+			"",
+			"halfHeightCorner",
+			"sidesHalfWidthCorner",
+			"sidesHalfWidth",
+			"halfWidthCorner",
+			"halfWidth",
+			"halfWidthCorner",
+			"halfHeight",
+			"halfWidth"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scripts/main.js",
+					"settings":
+					{
+						"buffer_size": 2123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1144,
+								1144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 634.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

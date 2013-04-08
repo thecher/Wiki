@@ -1,0 +1,121 @@
+body {
+	font-family:helvetica, arial, "sans serif";
+	background:#eee;
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	line-height:21px;
+}
+#container {
+	padding:25px;
+}
+.clear {
+	clear:both;
+}
+aside {
+	float:left;
+	width:14%;
+	display:inline;
+	margin:0px;
+	padding:0px;
+}
+#right {
+	float:right;
+	display:inline;
+	width:83%;
+	padding:0px 15px 15px 15px;
+	background:#fff
+}
+#right section h2 {
+	font-size:28px;
+}
+#right section h3 {
+	font-size:20px;
+}
+#right section h4 {
+	font-size:16px;
+}
+#right section h2, #right section h3 {
+	border-bottom:solid 1px #eee;
+
+}
+#right section {
+	margin:40px 0px;
+}
+#right section section {
+	margin:30px 0px 30px 30px;
+}
+p {
+	margin:20px 0px;
+}
+#userControls ul {
+	list-style:none;
+	padding:0px;
+	float:right;
+	margin:0px;
+}
+#userControls li {
+	margin:0px 5px;
+	display:inline;
+	background:#eee;
+	padding:10px 10px;
+	line-height:30px;
+	border-radius:0px 0px 5px 5px;
+	float:left;
+		z-index:150;
+	position:relative;
+}
+#logIn {
+	display:block;
+	background:#eee;
+}
+#logIn div {
+	width:150px;
+	padding-right:10px;
+}
+#editBox {
+	width:100%;
+	overflow-y:visible;
+	height:80px;
+}
+
+
+#newSection {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	z-index:200;
+	display:block;
+	background:rgba(0,0,0,.4);
+	display:none;
+}
+#newSectionInner {
+	width:500px;;
+	margin:150px auto 0px auto !important;
+	background:#f5f5f5;
+	border-radius:3px;
+	padding:10px;
+	box-shadow:1px 1px 5px rgba(0,0,0,.2), -1px -1px 5px rgba(0,0,0,.2);
+}
+#newSection span {
+	font-weight:bold;
+	width:85px;
+	display:block;
+	float:left;
+	text-align:right;
+	padding-right:4px;	
+}
+#newSection h2 {
+	text-align:center;
+}
+#newSection div {
+	margin:10px 0px;
+}
+#newSection input, #newSection textarea{
+	width:395px;
+}
+#newSection input[type='button'] {
+	width:auto;
+}
