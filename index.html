@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+	<title>aWiki</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.ui.theme.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body>
+
+<div id="container">
+	<aside>
+		<header>
+			<h1>aWiki</h1>
+			<h2>a tag line</h2>
+		</header>
+		<nav id="articleNavigation">
+			<ul>
+				<li><a href="#">Nav item 1</a></li>
+				<li><a href="#">Nav item 2</a></li>
+				<li><a href="#">Nav item 3</a></li>
+				<li><a href="#">Nav item 4</a></li>
+				<li><a href="#">Nav item 5</a></li>
+				<li><a href="#">Nav item 6</a></li>
+				<li><a href="#">Nav item 7</a></li>
+				<li><a href="#">Nav item 8</a></li>
+			</ul>
+			<br class="clear" />
+		</nav>
+	</aside>
+
+	<section id="right">
+		<nav id="userControls">
+			<ul>
+				<li>
+					<div id="logIn">
+						<span>Log in</span>
+						<div>
+							<form method="POST" action="#" id="loginForm">
+								<input type="text" placeholder="username" id="username" />
+								<input type="password" placeholder="password" id="password" />
+								<input type="submit" value="log in" />
+							</form>
+						</div>
+					</div>
+				</li>
+				<li><a href="#" id="addSection">Add a section to this article</a></li>
+			</ul>
+		</nav>
+
+		<article id="accordion">
+			<section>
+				<header><h2 id="article">Subject</h2></header>
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, nibh iaculis tempor eleifend, nunc nulla rhoncus augue, in gravida metus risus et quam. Pellentesque ullamcorper facilisis auctor. Duis eget urna est. Mauris rutrum, justo non rhoncus eleifend, est nisi ultrices urna, quis pretium libero ipsum eu lacus. In est leo, molestie et faucibus a, lobortis non nunc. Nam interdum, mauris in sodales consequat, sapien purus hendrerit risus, elementum molestie velit mi id neque. Ut ullamcorper iaculis aliquet. Integer fermentum erat id nisi adipiscing sagittis.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula sapien sit amet neque posuere mattis. Nulla facilisi. Sed tincidunt rhoncus ligula vitae fringilla. Pellentesque eget placerat mi. Pellentesque semper lacinia nunc, non fermentum arcu vehicula sed. Vivamus in magna nec eros aliquam scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis nibh vel dolor luctus quis vehicula metus cursus. Morbi in tincidunt lectus. Donec euismod est ac justo hendrerit feugiat.</p>
+
+					<div id="contents">
+						<ul>
+							<li><a href="#1">Section 1</a>
+								<ul>
+									<li><a href="#1-1">Subsection 1a</a></li>
+									<li><a href="#1-2">Subsection 1b</a></li>
+								</ul>
+							</li>
+							<li><a href="#2">Section 2</a></li>
+							<li><a href="#3">Section 3</a></li>
+							<li><a href="#4">Section 4</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</section>
+
+			<section id="1">
+				<header><h3>Section 1</h3></header>
+				<div>
+					<p>Fusce eu enim odio, ac auctor nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam porta porta euismod. Curabitur varius nisl a diam fringilla molestie vel eget dolor. Vestibulum auctor bibendum eros non vestibulum. Ut vulputate elit vitae lorem cursus at pharetra nisi rhoncus. Nulla tincidunt rutrum porttitor. Etiam vitae ultrices ante. Suspendisse sit amet ligula vitae libero vehicula pharetra eu non eros. Integer pulvinar, urna convallis dictum condimentum, leo tortor scelerisque felis, in imperdiet augue ante at purus. Integer facilisis lorem quis leo rutrum dapibus. Pellentesque vitae massa ac est eleifend convallis. Pellentesque at lobortis lectus.</p>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget ligula a dui pharetra accumsan lacinia vitae lorem. Sed non leo turpis, sit amet condimentum felis. Fusce a massa arcu. Suspendisse condimentum malesuada tellus. Ut aliquet orci at risus pellentesque bibendum. Morbi eu ipsum sem, non porta lorem. Ut non tortor turpis, sed consectetur felis. Suspendisse ac eleifend libero.</p>
+
+					<p>Fusce ultrices sodales quam, rutrum egestas quam sollicitudin eu. Aenean lacus massa, bibendum rutrum cursus eget, hendrerit quis velit. In ac turpis eget nisi ultrices volutpat. Maecenas ut odio nunc. Nullam molestie aliquet scelerisque. Donec nisi nunc, lobortis sed tempus nec, interdum vel lorem. Sed vehicula interdum ipsum eget consectetur. In id eros tellus, vitae gravida orci.</p>
+
+					<p>Nulla luctus molestie ullamcorper. Donec quis ante purus, ut gravida tortor. Duis vel purus sem, nec feugiat leo. Donec in purus nisl, ut convallis justo. Maecenas nibh ligula, vestibulum at vestibulum at, molestie sed augue. Suspendisse tincidunt tristique sapien, et molestie tortor rhoncus quis. Vivamus metus nunc, vulputate eu tempus eget, dapibus vel odio. Quisque ut scelerisque erat. Curabitur tortor dolor, pretium sit amet dictum et, suscipit ut ante.</p>
+				</div>
+
+				<section id="1-1">
+					<header><h4>Subsection 1a</h4></header>
+					<div>
+						
+
+						<p>Donec imperdiet auctor leo, ut venenatis mauris porttitor eget. Duis et felis metus, id commodo velit. Curabitur posuere condimentum leo, luctus dictum erat facilisis posuere. Aenean hendrerit dui vitae libero feugiat quis iaculis enim sollicitudin. Proin pulvinar, ligula nec sodales varius, diam ipsum tincidunt ipsum, ut sagittis nibh odio vitae ipsum. Phasellus dapibus iaculis neque, eu elementum ante faucibus sed. Mauris at rhoncus tortor. Suspendisse pellentesque porttitor bibendum. Cras sed cursus velit. Aliquam erat volutpat. In hac habitasse platea dictumst.</p>
+					</div>
+				</section>
+
+				<section id="1-2">
+					<header><h4>Subsection 1b</h4></header>
+					<div>
+						<p>Donec elementum, leo a eleifend accumsan, urna lectus posuere tellus, at convallis nisl eros nec sapien. Maecenas bibendum, est ac convallis lacinia, nunc mauris ornare felis, et imperdiet purus ante at lacus. Etiam tortor nibh, pretium sed feugiat et, posuere nec urna. Fusce quis pulvinar lectus. Ut tincidunt mi at orci congue sed convallis velit interdum. Vivamus placerat dui eget lorem elementum eu tempus enim blandit. Duis ac quam dignissim libero accumsan egestas. Nulla fringilla malesuada ipsum, hendrerit congue est tempor ut. Vivamus luctus condimentum mauris, vel mollis urna molestie id. Fusce nulla velit, ultrices et accumsan ut, pellentesque et erat. Nam nec nulla ullamcorper tellus lobortis interdum in eu turpis. Cras elementum posuere blandit.</p>
+
+						<p>Donec imperdiet auctor leo, ut venenatis mauris porttitor eget. Duis et felis metus, id commodo velit. Curabitur posuere condimentum leo, luctus dictum erat facilisis posuere. Aenean hendrerit dui vitae libero feugiat quis iaculis enim sollicitudin. Proin pulvinar, ligula nec sodales varius, diam ipsum tincidunt ipsum, ut sagittis nibh odio vitae ipsum. Phasellus dapibus iaculis neque, eu elementum ante faucibus sed. Mauris at rhoncus tortor. Suspendisse pellentesque porttitor bibendum. Cras sed cursus velit. Aliquam erat volutpat. In hac habitasse platea dictumst.</p>
+					</div>
+				</section>
+
+			</section>
+
+			<section id="2">
+				<header><h3>Section 2</h3></header>
+				<div>
+					<p>Etiam sagittis volutpat nulla, vitae hendrerit est bibendum in. Duis gravida nisl et lorem ullamcorper et pretium elit adipiscing. In consectetur imperdiet aliquam. Aliquam ante sapien, cursus at rutrum ac, feugiat ut quam. Nunc lorem nisl, pretium in sodales nec, accumsan vitae velit. Fusce congue sem eu nunc facilisis pretium. Sed ut tortor vel ante adipiscing adipiscing. Pellentesque sed ante velit. In hac habitasse platea dictumst.</p>
+
+					<p>In hac habitasse platea dictumst. Pellentesque sit amet nisl tellus, id imperdiet ligula. In egestas sagittis augue, aliquet faucibus massa dapibus a. Integer arcu enim, luctus nec facilisis sed, accumsan at leo. Vestibulum et libero quis sapien feugiat volutpat. Nulla in lacus leo, sit amet viverra eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vitae nunc in dui rutrum sodales ac ut nibh. Suspendisse fermentum, elit eget tempor sagittis, ante ligula consequat est, ut interdum urna mi quis risus. Mauris urna velit, adipiscing id congue at, vestibulum a ligula.</p>
+
+					<p>Sed non tortor ut est accumsan pretium. Pellentesque lobortis ullamcorper mi nec mollis. Aliquam erat volutpat. Phasellus non lectus a nisi imperdiet cursus. Mauris sem ipsum, laoreet nec commodo in, rutrum non sapien. Sed at arcu sem. Fusce nec sapien massa, a dignissim orci. Cras ut nulla massa. Integer egestas, libero pulvinar consequat pretium, eros nisi aliquam eros, sed ultricies tellus tortor sed leo. Ut sit amet felis vitae tortor consectetur dignissim. Aenean diam mi, suscipit a aliquet a, pulvinar in justo.</p>
+				</div>
+
+			</section>
+
+			<section id="3">
+				<header><h3>Section 3</h3></header>
+				<div>
+					<p>Etiam sagittis volutpat nulla, vitae hendrerit est bibendum in. Duis gravida nisl et lorem ullamcorper et pretium elit adipiscing. In consectetur imperdiet aliquam. Aliquam ante sapien, cursus at rutrum ac, feugiat ut quam. Nunc lorem nisl, pretium in sodales nec, accumsan vitae velit. Fusce congue sem eu nunc facilisis pretium. Sed ut tortor vel ante adipiscing adipiscing. Pellentesque sed ante velit. In hac habitasse platea dictumst.</p>
+
+					<p>In hac habitasse platea dictumst. Pellentesque sit amet nisl tellus, id imperdiet ligula. In egestas sagittis augue, aliquet faucibus massa dapibus a. Integer arcu enim, luctus nec facilisis sed, accumsan at leo. Vestibulum et libero quis sapien feugiat volutpat. Nulla in lacus leo, sit amet viverra eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vitae nunc in dui rutrum sodales ac ut nibh. Suspendisse fermentum, elit eget tempor sagittis, ante ligula consequat est, ut interdum urna mi quis risus. Mauris urna velit, adipiscing id congue at, vestibulum a ligula.</p>
+
+					<p>Sed non tortor ut est accumsan pretium. Pellentesque lobortis ullamcorper mi nec mollis. Aliquam erat volutpat. Phasellus non lectus a nisi imperdiet cursus. Mauris sem ipsum, laoreet nec commodo in, rutrum non sapien. Sed at arcu sem. Fusce nec sapien massa, a dignissim orci. Cras ut nulla massa. Integer egestas, libero pulvinar consequat pretium, eros nisi aliquam eros, sed ultricies tellus tortor sed leo. Ut sit amet felis vitae tortor consectetur dignissim. Aenean diam mi, suscipit a aliquet a, pulvinar in justo.</p>
+				</div>
+
+			</section>
+
+			<section id="4">
+				<header><h3>Section 4</h3></header>
+				<div>
+					<p>Etiam sagittis volutpat nulla, vitae hendrerit est bibendum in. Duis gravida nisl et lorem ullamcorper et pretium elit adipiscing. In consectetur imperdiet aliquam. Aliquam ante sapien, cursus at rutrum ac, feugiat ut quam. Nunc lorem nisl, pretium in sodales nec, accumsan vitae velit. Fusce congue sem eu nunc facilisis pretium. Sed ut tortor vel ante adipiscing adipiscing. Pellentesque sed ante velit. In hac habitasse platea dictumst.</p>
+
+					<p>In hac habitasse platea dictumst. Pellentesque sit amet nisl tellus, id imperdiet ligula. In egestas sagittis augue, aliquet faucibus massa dapibus a. Integer arcu enim, luctus nec facilisis sed, accumsan at leo. Vestibulum et libero quis sapien feugiat volutpat. Nulla in lacus leo, sit amet viverra eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vitae nunc in dui rutrum sodales ac ut nibh. Suspendisse fermentum, elit eget tempor sagittis, ante ligula consequat est, ut interdum urna mi quis risus. Mauris urna velit, adipiscing id congue at, vestibulum a ligula.</p>
+
+					<p>Sed non tortor ut est accumsan pretium. Pellentesque lobortis ullamcorper mi nec mollis. Aliquam erat volutpat. Phasellus non lectus a nisi imperdiet cursus. Mauris sem ipsum, laoreet nec commodo in, rutrum non sapien. Sed at arcu sem. Fusce nec sapien massa, a dignissim orci. Cras ut nulla massa. Integer egestas, libero pulvinar consequat pretium, eros nisi aliquam eros, sed ultricies tellus tortor sed leo. Ut sit amet felis vitae tortor consectetur dignissim. Aenean diam mi, suscipit a aliquet a, pulvinar in justo.</p>
+				</div>
+
+			</section>
+
+			<section id="citations">
+				<header><h2>Citations</h2></header>
+
+				<ul>
+					<li><a href="#">Cras iaculis magna pharetra leo luctus sed semper nibh tempus.</a></li>
+					<li><a href="#">Vivamus tempus urna auctor neque ornare condimentum.</a></li>
+					<li><a href="#">In ac tellus mi, non facilisis velit.</a></li>
+					<li><a href="#">Vivamus id ante nec nisl aliquam mattis ut at ipsum.</a></li>
+					<li><a href="#">Morbi mollis diam et purus vehicula auctor.</a></li>
+					<li><a href="#">Nam ornare justo vitae est ullamcorper nec aliquam nulla viverra.</a></li>
+					<li><a href="#">Quisque sollicitudin egestas leo, sagittis consectetur elit ullamcorper sed.</a></li>
+					<li><a href="#">Nullam adipiscing odio vitae orci lacinia placerat.</a></li>
+					<li><a href="#">Quisque et eros felis, vel pharetra leo.</a></li>
+					<li><a href="#">Aenean cursus aliquam dolor, vel ultricies diam aliquet vel.</a></li>
+				</ul>
+
+			</section>
+
+
+
+		</article>
+
+	</section>
+
+	<br class="clear" />
+
+
+
+
+</div>
+
+
+</body>
+</html>

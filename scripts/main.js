@@ -94,8 +94,11 @@ $(function () {
 
 function loadPage() {
 	un = localStorage["user"];
+	console.log(localStorage["user"]);
 	if (un != "") {
 		$("body").html(localStorage[un]);
+	}else {
+		$("body").html(localStorage["noUser"])
 	}
 }
 
@@ -141,5 +144,5 @@ function logOut() {
 		url: 'php/logout.php'
 	});
 	localStorage["user"] = "";
-	$("body").html(localStorage["noUser"]);
+	loadPage();
 }
